@@ -160,7 +160,7 @@ export default {
 
       const comment = {
         content: values.comment,
-        datePosted: new Date().toISOString(),
+        datePosted: new Date().toString(),
         sid: this.$route.params.id,
         name: auth.currentUser.displayName,
         uid: auth.currentUser.uid,
