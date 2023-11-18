@@ -12,11 +12,6 @@ describe("Home.vue", () => {
           songs,
         };
       },
-      global: {
-        mocks: {
-          $t: (message) => message,
-        },
-      },
     });
 
     const items = component.findAllComponents(SongItem);
