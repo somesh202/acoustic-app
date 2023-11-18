@@ -17,7 +17,6 @@ export default {
       );
       //console.log(path, componentName);
 
-      // export default
       app.component(`Base${componentName}`, module.default);
     });
   },
