@@ -128,7 +128,7 @@ export default {
         tos: "tos",
       },
       userData: {
-        country: "USA",
+        country: "India",
       },
       reg_in_submission: false,
       reg_show_alert: false,
